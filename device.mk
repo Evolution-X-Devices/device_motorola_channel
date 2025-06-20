@@ -62,6 +62,7 @@ $(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class
 
 # Init
 PRODUCT_PACKAGES += \
+    init.audio.specified_para.sh \
     init.channel.rc
 
 # LiveDisplay

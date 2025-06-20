@@ -4,17 +4,15 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 
-// Init scripts
 sh_binary {
     name: "init.audio.specified_para.sh",
-    src: "bin/init.audio.specified_para.sh",
+    src: "init.audio.specified_para.sh",
     vendor: true,
 }
 
-// Init configuration files
 prebuilt_etc {
     name: "init.channel.rc",
-    src: "etc/init.channel.rc",
+    src: "init.channel.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
