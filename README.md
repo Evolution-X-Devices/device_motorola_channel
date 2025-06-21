@@ -1,4 +1,3 @@
-
 Device configuration for Motorola g7 play (channel)
 ==================================
 
@@ -18,3 +17,13 @@ Rear Camera  | 13 MP (f/2.0, 1.12µm, PDAF)
 Front Camera | 8 MP (f/2.2, 1.12µm, HDR)
 
 ![Motorola g7 play](https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g7-play-1.jpg "Motorola g7 play")
+
+
+```
+
+SPDX-FileCopyrightText: The LineageOS Project
+
+SPDX-License-Identifier: Apache-2.0
+
+```
+
