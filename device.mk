@@ -17,15 +17,6 @@
 # Vendor blobs
 $(call inherit-product, vendor/motorola/channel/channel-vendor.mk)
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
-
-PRODUCT_PACKAGES += \
-    AvoidAppsInCutoutOverlay \
-    NoCutoutOverlay
-
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
@@ -74,6 +65,19 @@ TARGET_MOTCAMERA2 := denali-2
 TARGET_USES_MOTCAMERA2 := true
 
 $(call inherit-product, vendor/motorola/MotCamera2/motcamera2.mk)
+
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage
+
+PRODUCT_PACKAGES += \
+    FrameworksResDevice \
+    SettingsProviderResDevice \
+    SystemUIResDevice
+
+PRODUCT_PACKAGES += \
+    AvoidAppsInCutoutOverlay \
+    NoCutoutOverlay
 
 # Radio
 PRODUCT_PACKAGES += \
