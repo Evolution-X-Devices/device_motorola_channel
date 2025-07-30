@@ -34,9 +34,6 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 335544320     #   841316 * 1024 mmcblk0p60-6
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
-# Sepolicy
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
