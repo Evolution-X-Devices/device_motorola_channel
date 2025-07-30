@@ -308,6 +308,11 @@ vendor/lib/com.fingerprints.extension@1.0.so
 vendor/lib/sensors.ssc.so;DISABLE_CHECKELF|58f8098546199c6c43a38f09f42da6ec254a5c58|730c6fe5f6112f1f6a5519d9b34ffd825b094a3c
 vendor/lib64/sensors.ssc.so;DISABLE_CHECKELF|b3386328c3058869e5badcfc4bf5aa4af3adeed9|b96ebfed68d59b85523258f4212822d80ed5787a
 
+# Thermal
+vendor/etc/thermal-engine-channel.conf
+vendor/etc/thermal-engine-channel-NA_TMO.conf
+vendor/etc/thermal-engine.conf
+
 # Vibrator firmware
 vendor/firmware/aw8624_haptic.bin
 vendor/firmware/aw8624_rtp.bin
