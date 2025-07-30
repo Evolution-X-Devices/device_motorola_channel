@@ -9,7 +9,6 @@ $(call inherit-product, vendor/motorola/channel/channel-vendor.mk)
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
-PRODUCT_AAPT_PREBUILT_DPI := xhdpi hdpi
 
 # Audio
 PRODUCT_COPY_FILES += \
