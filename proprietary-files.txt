@@ -1,5 +1,5 @@
 ## All blobs from this list, unless pinned and noted as otherwise,
-## are from channel_retail (QPYS30.85-23-8-2).
+## are from channel_retail (QPYS30.52-22-14).
 
 # Current blobs with ELF checks disabled:
 # libmmcamera2_is, libmmcamera2_cpp_module, libmmcamera2_q3a_core, libmmcamera_vstab_module, libmmcamera_pdaf, libmmcamera_pdafcamif, libmmcamera2_sensor_modules, audio.primary.msm8953-moto, camera.msm8953 (32-bit) are unable to resolved the following symbols: __aeabi_ldivmod, __aeabi_uldivmod
