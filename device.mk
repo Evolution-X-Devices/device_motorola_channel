@@ -33,10 +33,6 @@ PRODUCT_PACKAGES += \
     init.audio.specified_para.sh \
     init.channel.rc
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sysfs
-
 # Moto Camera 2
 TARGET_MOTCAMERA2 := denali-2
 TARGET_USES_MOTCAMERA2 := true
